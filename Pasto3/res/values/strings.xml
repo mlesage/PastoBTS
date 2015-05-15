@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- texte pour l'application en générale -->
+    <string name="app_name">Pasto</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- texte pour la page d'accueil -->
+    <string name="btnStats">Stats</string>
+    <string name="btnPizzas">Encaissement</string>
+    
+    
+    <!-- Texte pour l'activité pizza -->
+    
+    <!-- Ticket -->
+    <string name="txtTitreTicket"><u>Ticket</u></string>
+	<string name="btnValider">Valider</string>
+    <string name="txtTotal">Total .</string>
+    <string name="txtResultat">0 € .</string>
+
+</resources>

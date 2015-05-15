@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_generalAccueil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_accueil"
+    tools:context="com.termex.pasto.Vue.Accueil" >
+
+    <Button
+        android:id="@+id/btnPizza"
+        android:textSize="23sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="100dp"
+        style="@style/btnAccueil"
+        android:text="@string/btnPizzas" />
+    
+    <Button
+        android:id="@+id/btnStats"
+        android:textSize="23sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnPizza"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="70dp"
+        style="@style/btnAccueil"
+        android:text="@string/btnStats" />
+
+</RelativeLayout>
